@@ -22,7 +22,7 @@ public:
 					return;
 
 				pPlayer->TeleportTo(560,  2168.909912f,  32.518398f,  41.658501f,  5.186590f); // Prison
-				pPlayer->GetSession()->SendAreaTriggerMessage("Sorry but you not a GameMaster. bye.");
+				pPlayer->GetSession()->SendAreaTriggerMessage("Sorry but you are not a GameMaster this area is off limits.");
 			}
 			break;
 		}
